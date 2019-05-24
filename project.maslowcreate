@@ -10,10 +10,27 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 1085,
+                    "y": 301,
+                    "uniqueID": 843159,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 1364,
-                    "y": 420,
+                    "x": 1221,
+                    "y": 312,
                     "uniqueID": 752834,
                     "ioValues": [
                         {
@@ -27,6 +44,19 @@
                     ]
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 1368,
+                    "y": 312,
+                    "uniqueID": 906081,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 951895",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 2263,
@@ -34,7 +64,9 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                null
+            ],
             "fileTypeVersion": 1
         }
     ]
